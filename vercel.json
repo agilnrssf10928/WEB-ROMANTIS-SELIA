@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/settings", "destination": "/settings.html" }
+  ],
+  "functions": {
+    "api/photos.js": {
+      "maxDuration": 10
+    }
+  }
+}
